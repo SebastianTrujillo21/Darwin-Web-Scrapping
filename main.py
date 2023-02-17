@@ -44,6 +44,6 @@ driver.find_element(By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div[2]/div[2]
 nombre = driver.find_element(By.XPATH,
                              "/html/body/div[1]/section/div[2]/div/div/div[3]/div[1]/div[2]/div[1]/div/div/div/div/form/div[1]/div/div[4]/div/div/input")
 text_nombre = nombre.get_attribute('value')
-
+#AEAAAAAAAAA
 print(text_nombre)
 time.sleep(20)
